@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	scrollbar-width: thin;
+}
+
+.bg-80s {
+	background: linear-gradient(
+		45deg,
+		theme("colors.blue.400"),
+		theme("colors.purple.700"),
+		theme("colors.yellow.600")
+	);
+}

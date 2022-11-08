@@ -1,5 +1,9 @@
 <script>
-  import "../app.postcss";
+	import Footer from "$lib/Footer.svelte"
+	import "../app.postcss"
 </script>
 
-<slot />
+<main class="bg-stone-100 min-h-screen flex flex-col">
+	<slot />
+	<Footer />
+</main>
