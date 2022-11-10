@@ -14,5 +14,15 @@
 </script>
 
 <footer class="bg-80s text-white text-center p-8">
-	<p>© <a href="mailto:terry@gonguet.com" class="underline">Terry Gonguet</a> {date}</p>
+	<p>
+		© <a href="mailto:terry@gonguet.com" class="underline">Terry Gonguet</a>
+		{date} -
+		<a
+			href="https://github.com/terrygonguet/sub-to-yt-playlist"
+			target="_blank"
+			rel="noreferrer"
+			class="underline">Github repo for this website</a
+		>
+		- <a href="/privacy" data-sveltekit-prefetch class="underline">Privacy policy</a>
+	</p>
 </footer>
